@@ -1,0 +1,25 @@
+pwd 
+(print working directory)
+
+git add .
+(statement to add files)
+
+git commit -m "message"
+(into the staging area)
+
+git log
+(history of the repository)
+
+git diff <id-1> <id-2>
+(shows difference between two git files)
+
+git checkout <id>
+    (switches to the specific snapshot of the git)
+    -> now if you checkout in an earlier branch. You should make a new branch
+    for the changes that are going to be made. 
+    and then can merge from the main branch to have those changes.
+
+three stages are as follows:-
+
+working directory -> staging directory  -> .git directory
+(local modify)    -> (commit to local)  -> (push) 
